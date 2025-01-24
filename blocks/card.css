@@ -13,13 +13,7 @@
   font-weight: 500;
   line-height: 1.2px;
   font-size: 20px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  line-clamp: 3;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  max-width: 420px;
+  margin-bottom: 36px;
 }
 
 .card__content {
@@ -27,7 +21,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   white-space: nowrap;
 }
 
@@ -49,6 +43,16 @@
   .card__content {
     padding-top: 12px;
     padding-bottom: 0;
+  }
+
+  .card__title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-clamp: 3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-width: 288px;
   }
 
   .card__image {
