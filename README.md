@@ -17,3 +17,5 @@ This project was done to create a webpage that is not only functional through de
 This webpage is deployed to GitHub Pages
 
 - Deployment Link: [keycao17.github.io](https://keycao17.github.io/se_project_spots/)
+
+- Video Link : https://drive.google.com/file/d/1xTx6J17MXmw1bu7qizwi8TbpOyNfwlTI/view?usp=sharing
