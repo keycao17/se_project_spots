@@ -3,5 +3,9 @@
   justify-content: center;
   color: #212121;
   opacity: 70%;
-  margin: 0 60px 0;
+  padding: 60px;
+}
+
+.footer__copyright {
+  margin: 0;
 }
