@@ -5,15 +5,15 @@
   bottom: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  max-width: 730px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
   visibility: hidden;
 }
 
-.modal__opened {
+.modal_is-opened {
   visibility: visible;
 }
 
@@ -23,7 +23,6 @@
   max-width: 730px;
   position: relative;
   width: 100%;
-  box-sizing: border-box;
   border-radius: 8px;
 }
 
@@ -63,19 +62,29 @@
 }
 
 .modal__input {
-  padding: 16px 12px;
+  display: block;
+  margin: 8px 0 0;
   border-radius: 8px;
   border-color: #212121;
   opacity: 40%;
+  padding: 16px 12px;
 }
 
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__input::placeholder {
+  color: #2121214d;
+}
 .modal__input:hover {
   opacity: 100%;
   cursor: pointer;
 }
 
 .modal__submit-btn {
-  width: 156px;
+  max-width: 156px;
   padding: 18px 32px;
   gap: 8px;
   background-color: #212121;

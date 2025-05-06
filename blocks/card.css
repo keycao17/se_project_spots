@@ -29,7 +29,7 @@
   white-space: nowrap;
 }
 
-.card__like-button {
+.card__like-btn {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,13 +41,13 @@
   opacity: 40%;
 }
 
-.card__like-button:hover {
+.card__like-btn:hover {
   opacity: 1;
   cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
-  .card__like-button {
+  .card__like-btn {
     width: 20px;
     height: 18px;
   }
